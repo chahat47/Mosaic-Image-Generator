@@ -32,16 +32,9 @@ A desktop Python application that transforms any image into a stunning photo mos
 ```
 photo-mosaic-generator/
 │
-├── main.py                 # Application entry point
 ├── mosaic.py               # Core mosaic generation logic
-├── tile_downloader.py      # Tile image fetching and management
-├── gui.py                  # tkinter UI components and layout
-├── utils.py                # Helper functions (color averaging, resizing, etc.)
-│
+├── tilesr.py      # Tile image fetching and management
 ├── tiles/                  # Directory for downloaded/stored tile images
-├── output/                 # Generated mosaic output images
-│
-├── requirements.txt
 └── README.md
 ```
 
